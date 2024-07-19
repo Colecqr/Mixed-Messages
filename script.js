@@ -12,7 +12,7 @@ const profile = (name, nickname, interest, grade) => {
 const adjectives = ['hilarious', 'merry', 'silly', 'amusing', 'diverting', 'entertaining', 'comical', 'whimsical', 'droll', 'riotous', 'jocular', 'waggish', 'hysterical', 'antic', 'risible']
 
 // this defines the sender as a string
-let sender = 'Javascript'
+let sender = ''
 
 // this function returns a random adjective
 const randAdjective = () => {
@@ -51,3 +51,7 @@ const message = (profile) => {
         return 'invalid grade value'
     }
 }
+
+let Jehosophaty = profile('Jehosophaty', 'na', 'being fat', 'teacher')
+sender = 'Isaiah'
+console.log(message(Jehosophaty))
