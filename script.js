@@ -52,6 +52,7 @@ const message = (profile) => {
     }
 }
 
-let Jehosophaty = profile('Jehosophaty', 'na', 'being fat', 'teacher')
-sender = 'Isaiah'
-console.log(message(Jehosophaty))
+// input recipiet details here
+let Recipient = profile('', '', '', '')
+sender = ''
+console.log(message(Recipient))
